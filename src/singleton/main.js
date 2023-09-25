@@ -1,0 +1,14 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var Produto_1 = require("./Produto");
+var prd = Produto_1.Produto.getInstance();
+prd.idProduto = 1;
+prd.nomeProduto = "novo produto 1";
+var prd2 = Produto_1.Produto.getInstance();
+console.log(prd);
+console.log(prd2);
+prd2.nomeProduto = "mudou nome 1";
+console.log(prd);
+console.log(prd2);
+prd2.nomeProduto = "mudou nome 2";
+console.log(prd);
