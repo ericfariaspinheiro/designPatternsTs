@@ -1,6 +1,6 @@
-import { ITomadaTresPinos } from "./iTomadaTresPinos";
+import { ITomadaTresPinos } from "./ITomadaTresPinos";
 import { Produto } from "./Produto";
-import { TomadaDoisPinos } from "./tomadaDoisPinos";
+import { TomadaDoisPinos } from "./TomadaDoisPinos";
 
 export class AdapterTomada implements ITomadaTresPinos{
     ligar(energiaJSON: string){

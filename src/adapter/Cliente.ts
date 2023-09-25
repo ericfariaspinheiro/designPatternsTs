@@ -1,5 +1,5 @@
 import { Produto } from "./Produto";
-import { ITomadaTresPinos } from "./iTomadaTresPinos";
+import { ITomadaTresPinos } from "./ITomadaTresPinos";
 
 export class Cliente {
     constructor(private tmd: ITomadaTresPinos){};
